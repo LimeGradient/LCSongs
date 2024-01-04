@@ -38,8 +38,6 @@ class MainWindow(QMainWindow):
         yt_link_enter = QLineEdit()
         yt_link_enter.setMaxLength(75)
 
-        # C:\Users\Kevin Burns\AppData\Roaming\Thunderstore Mod Manager\DataFolder\LethalCompany\profiles\Main\BepInEx\plugins\Custom Songs
-
         output_path_label = QLabel("Output Path: ")
         output_path_enter = QLineEdit()
         for profile in profiles:
