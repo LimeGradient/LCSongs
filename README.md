@@ -1,5 +1,7 @@
 # LCSongs - The Best Lethal Company Song Manager
 
+# Requires Custom Boombox Music Mod
+
 ## How to Use
 1. Download the [Newest Release Here](https://github.com/LimeGradient/LCSongs/releases)
 2. Run it
