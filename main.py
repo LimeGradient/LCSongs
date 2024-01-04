@@ -60,6 +60,10 @@ class MainWindow(QMainWindow):
         download_button.clicked.connect(lambda: self.DownloadYTToMP3(yt_link_enter.text(), output_path_enter.text()))
         mainLayout.addWidget(download_button)
 
+        open_profile_folder_button = QPushButton("Open Profile Folder", self)
+        open_profile_folder_button.clicked.connect(lambda: os.system(f"explorer {output_path_enter.text()}"))
+        mainLayout.addWidget(open_profile_folder_button)
+
         wid = QWidget(self)
         wid.setLayout(mainLayout)
         self.setCentralWidget(wid)
